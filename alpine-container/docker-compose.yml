@@ -16,7 +16,6 @@ services:
   node:
     image: node:12-alpine
     working_dir: /root/app/src
-    command: npm run start
     environment:
       - SERVER_PORT=${SERVER_PORT}
     env_file:

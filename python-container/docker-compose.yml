@@ -14,9 +14,9 @@ services:
   ##########
 
   python:
-    image: python:3.9-rc
+    # image: python:3.9-rc-alpine // you can replace build with this image 
+    build: ./docker
     working_dir: /root/app/src
-    command: npm run start
     environment:
       - SERVER_PORT=${SERVER_PORT}
     env_file:

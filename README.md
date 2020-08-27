@@ -19,9 +19,23 @@ $ git clone git@github.com:Xchenot/development-environments.git
 
 ## Launch container
 
+### node
 make start
 
-## Dependencies
+for download libraries :
+npm install
+
+for add new library :
+npm install [package]
+
+### python 
+
+for download libraries :
+./download.sh
+
+for add new library :
+pipenv install [package]
+pip install -t ./libs
 
 ## Testing
 

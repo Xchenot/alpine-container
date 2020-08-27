@@ -1,0 +1,108 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "45c50b0d5e379f8133201a59c5d53c6d71c04cbecca77ddfa126be94ef190894"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.9"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "irc": {
+            "hashes": [
+                "sha256:101faabfc1080b9567f16a8cb7548d3c893d1abd4abcb9717ece2f07f796fb50",
+                "sha256:29026b1e977dacb621c710ae9531fcab6fa21825b743c616c220da0e58a32233"
+            ],
+            "index": "pypi",
+            "version": "==19.0.0"
+        },
+        "jaraco.classes": {
+            "hashes": [
+                "sha256:116429c2047953f525afdcae165475c4589c7b14870e78b2d068ecb01018827e",
+                "sha256:c38698ff8ef932eb33d91c0e8fc192ad7c44ecee03f7f585afd4f35aeaef7aab"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==3.1.0"
+        },
+        "jaraco.collections": {
+            "hashes": [
+                "sha256:a7889f28c80c4875bd6256d9924e8526dacfef22cd7b80ff8469b4d312f9f144",
+                "sha256:be570ef4f2e7290b757449395238fa63d70a9255574624e73c5ff9f1ee554721"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==3.0.0"
+        },
+        "jaraco.functools": {
+            "hashes": [
+                "sha256:9fedc4be3117512ca3e03e1b2ffa7a6a6ffa589bfb7d02bfb324e55d493b94f4",
+                "sha256:d3dc9f6c1a1d45d7f59682a3bf77aceb685c1a60891606c7e4161e72ecc399ad"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==3.0.1"
+        },
+        "jaraco.logging": {
+            "hashes": [
+                "sha256:31716fe84d3d5df39d95572942513bd4bf8ae0a478f64031eff4c2ea9e83434e",
+                "sha256:b05ed07101883997a30e05c2472798d86129803d9961a0d1081a3236ad37c52a"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==3.0.0"
+        },
+        "jaraco.stream": {
+            "hashes": [
+                "sha256:287e1cba9f278e0146fdded6bc40518930813a5584579769aeaa1d0bfd178a73",
+                "sha256:a42357141288bbd55938b9ff464173c078038374ce5ffa1bf31895138acc0f30"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==3.0.0"
+        },
+        "jaraco.text": {
+            "hashes": [
+                "sha256:c87569c9afae14f71b2e1c57f316770ab6981ab675d9c602be1c7981161bacdd",
+                "sha256:e5078b1126cc0f166c7859aa75103a56c0d0f39ebcafc21695615472e0f810ec"
+            ],
+            "markers": "python_version >= '2.7'",
+            "version": "==3.2.0"
+        },
+        "more-itertools": {
+            "hashes": [
+                "sha256:68c70cc7167bdf5c7c9d8f6954a7837089c6a36bf565383919bb595efb8a17e5",
+                "sha256:b78134b2063dd214000685165d81c154522c3ee0a1c0d4d113c80361c234c5a2"
+            ],
+            "markers": "python_version >= '3.5'",
+            "version": "==8.4.0"
+        },
+        "pytz": {
+            "hashes": [
+                "sha256:a494d53b6d39c3c6e44c3bec237336e14305e4f29bbf800b599253057fbb79ed",
+                "sha256:c35965d010ce31b23eeb663ed3cc8c906275d6be1a34393a1d73a41febf4a048"
+            ],
+            "version": "==2020.1"
+        },
+        "six": {
+            "hashes": [
+                "sha256:30639c035cdb23534cd4aa2dd52c3bf48f06e5f4a941509c8bafd8ce11080259",
+                "sha256:8b74bedcbbbaca38ff6d7491d76f2b06b3592611af620f8426e82dddb04a5ced"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'",
+            "version": "==1.15.0"
+        },
+        "tempora": {
+            "hashes": [
+                "sha256:599a3a910b377f2b544c7b221582ecf4cb049b017c994b37f2b1a9ed1099716e",
+                "sha256:9f46de767be7dd21d9602a8a5b0978fd55abc70af3e2a7814c85c00d7a8fffa3"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==4.0.0"
+        }
+    },
+    "develop": {}
+}
