@@ -1,0 +1,29 @@
+##################
+# Docker Compose #
+##################
+
+version: "3"
+
+#####################
+# Docker Containers #
+#####################
+
+services:
+  ########
+  # Node #
+  ########
+
+  node:
+    image: node:12-alpine
+    working_dir: /root/app/src
+    command: npm run start
+    environment:
+      - SERVER_PORT=${SERVER_PORT}
+    env_file:
+      - ./env/default
+      - ./env/secrets
+    ports:
+      - ${SERVER_PORT}:${SERVER_PORT}
+    volumes:
+      - .:/root/app
+      - ~/.npm:/root/.npm
