@@ -1,0 +1,28 @@
+##################
+# Docker Compose #
+##################
+
+version: "3"
+
+#####################
+# Docker Containers #
+#####################
+
+services:
+  ##########
+  # python #
+  ##########
+
+  python:
+    image: python:3.9-rc
+    working_dir: /root/app/src
+    command: npm run start
+    environment:
+      - SERVER_PORT=${SERVER_PORT}
+    env_file:
+      - ./env/default
+      - ./env/secrets
+    ports:
+      - ${SERVER_PORT}:${SERVER_PORT}
+    volumes:
+      - .:/root/app
