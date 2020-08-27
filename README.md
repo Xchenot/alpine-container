@@ -14,7 +14,7 @@ The only tools you need to build this project are :
 To install the project, just clone it:
 
 ``` bash
-$ git clone git@github.com:Xchenot/alpine-container.git
+$ git clone git@github.com:Xchenot/development-environments.git
 ```
 
 ## Launch container
