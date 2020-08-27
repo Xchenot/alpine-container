@@ -3,3 +3,9 @@
 ########
 
 /env/secrets
+
+########
+# Node #
+########
+
+/node_modules
