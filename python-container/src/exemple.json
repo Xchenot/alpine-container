@@ -1,0 +1,14 @@
+{
+    "animals": [{
+    "species": "dog",
+    "race": "Labrador Retriever",
+    "colour": "Yellow",
+    "âge": 8
+    },
+    {
+    "species": "cat",
+    "race": "Chiwawa",
+    "colour": "Bleu",
+    "âge": 6
+    }]
+}
