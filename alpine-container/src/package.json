@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Xchenot/alpine-container/issues"
   },
-  "homepage": "https://github.com/Xchenot/alpine-container#readme"
+  "homepage": "https://github.com/Xchenot/alpine-container#readme",
+  "dependencies": {
+    "@google-cloud/dialogflow-cx": "^2.0.0"
+  }
 }

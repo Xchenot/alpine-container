@@ -3,9 +3,10 @@
 ########
 
 /env/secrets
+/env/zeiver-7bf91a919a71.json
 
 ########
 # Node #
 ########
 
-/node_modules
+/src/node_modules

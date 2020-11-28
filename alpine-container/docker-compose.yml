@@ -14,7 +14,8 @@ services:
   ########
 
   node:
-    image: node:12-alpine
+    # image: node:12-alpine // you can replace build with this image 
+    build: ./docker
     working_dir: /root/app/src
     environment:
       - SERVER_PORT=${SERVER_PORT}
